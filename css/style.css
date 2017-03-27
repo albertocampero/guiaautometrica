@@ -1,0 +1,45 @@
+html, body {
+	height: 100%;
+}
+body {
+	color: #a3a3a3;
+    font-family: "Helvetica Neue", Roboto, Arial, "Droid Sans", sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 1.471;
+}
+#wrapper {
+  min-height: 100%;
+  margin-bottom: -40px; 
+}
+#wrapper:after {
+  content: "";
+  display: block;
+  height: 40px;
+}
+footer {
+	padding: 5px 0;
+	height: 40px;
+	background: #73879C;
+	color: #fff;
+}
+header {
+	padding-top: 10px;
+}
+header img {
+	margin: 0 auto;
+}
+header h5 {
+	margin-top: 0;
+}
+header .container {
+	position: relative;
+}
+header .btn-group {
+	position: absolute;
+	right: 15px;
+	bottom: 5px;
+}
+#addModelBlock {
+	display: none;
+}
